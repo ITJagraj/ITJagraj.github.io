@@ -66,7 +66,7 @@ body {
  .header nav ul li a {
      font-size: 1.3rem;
  }
- .sections {
+ .steps {
      align-items: stretch;
      width: 100%;
      flex-wrap: wrap;
@@ -85,7 +85,7 @@ body {
  }
  .image img {
      height: 700px;
-     width: 80%;
+     width: 100%;
      margin: 5px;
      border: 5px solid;
  }
