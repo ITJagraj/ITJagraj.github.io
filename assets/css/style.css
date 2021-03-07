@@ -20,6 +20,34 @@ body {
     flex-wrap: wrap;
     background-image: url("../images/hero-bg.jpg");
     height: 300px;
+}
+.sidebar {
+    padding: 10px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    width: 20%;
+    align-items: flex-start;
+    border-right: 2px solid;
+    font-family: 1.3rem;
 
 }
+.content {
+    padding: 10px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 80%;
+}
+.content p {
+    color: ;
+}
+.content ul  {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
  
