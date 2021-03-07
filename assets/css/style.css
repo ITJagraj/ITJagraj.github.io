@@ -4,11 +4,7 @@
     padding: 0;
     box-sizing: border-box;
   }
-:root {
-    ---primary-color: rgb(64, 180, 180);
 
-
-}
 body {
     background-color: white;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -40,7 +36,6 @@ body {
     width: 80%;
 }
 .content p {
-    color: ;
 }
 .content ul  {
     list-style: none;
@@ -49,5 +44,54 @@ body {
     align-items: center;
     width: 100%;
 }
-
- 
+.content ul li a {
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+ .header h1 {
+     margin: 10px 25px;
+     font-size: bold;
+     font-size: 30px;
+ }
+ .header nav {
+     margin: 3px 0;
+ }
+ .header a {
+     text-decoration: none;
+ }
+ .header nav ul {
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-evenly;
+     list-style: none;
+ }
+ .header nav ul li a {
+     font-size: 1.3rem;
+ }
+ .image {
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-evenly;
+     position: relative;
+     width: 100%;
+ }
+ .image img {
+     height: 500px;
+     width: 100%;
+     margin: 5px;
+     border: 5px solid
+ }
+ .project-info {
+    margin: 6px;
+    padding-left: 5px;
+    position: absolute;
+    height: 50px;
+    width: 200px;
+ }
+ .project-info h3 {
+     font-weight: lighter;
+     font-size: 1.2rem;
+ }
+ .project-info h3 {
+     width: 100%;
+ }
