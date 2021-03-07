@@ -26,6 +26,7 @@ body {
     align-items: flex-start;
     border-right: 2px solid;
     font-family: 1.3rem;
+    
 
 }
 .content {
@@ -46,25 +47,37 @@ body {
     text-decoration: none;
     font-size: 1.2rem;
 }
+.header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-size: cover;
+}
  .header h1 {
      margin: 10px 25px;
      font-size: bold;
      font-size: 30px;
+     color: rgb(64, 180, 180);
+     font-weight: bold;
  }
  .header nav {
-     margin: 3px 0;
+     margin: 5px 0;
+     width: 50%;
  }
  .header a {
      text-decoration: none;
  }
  .header nav ul {
-     display: flex;
-     flex-wrap: wrap;
-     justify-content: space-evenly;
-     list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+   align-items: center;
+    list-style: none;
+    
  }
  .header nav ul li a {
      font-size: 1.3rem;
+     color: rgb(64, 180, 180);
  }
  .steps {
      align-items: stretch;
@@ -73,8 +86,9 @@ body {
      justify-content: center;
      display: flex;
      margin: 7px 20px;
-     
-
+ }
+ .content p {
+     color: rgb(37, 102, 94);
  }
  .image {
      display: flex;
@@ -90,7 +104,7 @@ body {
      border: 5px solid;
  }
  .project-info h4 {
-     color: white;
+     font-weight: bold;
      font-size: 1.2rem;
  }
  .project-info h3 {
@@ -104,7 +118,8 @@ body {
      margin: 5px 5px;
      height: 300px;
      width: 100%;
-     border: 5px;
+     border: 5px solid;
+
  }
  .project {
 display: flex;
