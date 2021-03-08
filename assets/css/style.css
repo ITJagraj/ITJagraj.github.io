@@ -26,7 +26,7 @@ body {
     align-items: flex-start;
     border-right: 2px solid;
     font-family: 1.3rem;
-    
+    color: rgb(37, 102, 94);
 
 }
 .content {
@@ -42,10 +42,12 @@ body {
     justify-content: space-around;
     align-items: center;
     width: 100%;
+    
 }
 .content ul li a {
     text-decoration: none;
     font-size: 1.2rem;
+    color: rgb(37, 102, 94);
 }
 .header {
     display: flex;
