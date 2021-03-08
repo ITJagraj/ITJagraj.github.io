@@ -95,6 +95,7 @@ body {
  
  .content p {
      color: rgb(37, 102, 94);
+     margin-top: 20px;
  }
  .content img {
      height: 200px;
@@ -166,3 +167,5 @@ position: relative;
 
 }
 @media only screen and (max-width: 425px) {
+
+}
