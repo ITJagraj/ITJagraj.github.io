@@ -95,7 +95,10 @@ body {
  
  .content p {
      color: rgb(37, 102, 94);
-     
+ }
+ .content img {
+     height: 200px;
+
  }
  
  .image {
@@ -159,18 +162,7 @@ width: 50%;
 position: relative;
  }
 
- @media only screen and (max-width: 1024px) {
-}
-@media only screen and (max-width: 768px) {
+ @media only screen and (max-width: 768px) {
 
 }
 @media only screen and (max-width: 425px) {
-}
-@media only screen and (max-width: 768px) {
-    header nav a {
-        font-size: .80em;
-    }
-    .header {
-        padding:  0.5em;
-    }
-}
