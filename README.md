@@ -1,4 +1,4 @@
-#COVacation - Interactive Front-End Project
+Professional-portfolio
 
 #Purpose
 
@@ -6,11 +6,7 @@ To give prospect travellers better insight to their travel during this covid tim
 
 Built with
 HTML
-Tailwind
-jQuery
-APIs
-Moment.js
+CSS
 
 #Deplyed Website 
 
-https://stevtm.github.io/COVacation/
