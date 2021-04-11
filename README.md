@@ -1,5 +1,4 @@
-# Professional-Portfolio
-COVacation - Interactive Front-End Project
+#COVacation - Interactive Front-End Project
 
 #Purpose
 
